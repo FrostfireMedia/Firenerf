@@ -1,0 +1,5 @@
+name: Firenerf
+description: Removes Firework damage on players.
+version: 1.0
+authors: [Aaesos]
+main: io.frostfire.firetweaks.FiretweaksPlugin
