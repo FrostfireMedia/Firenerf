@@ -3,3 +3,10 @@ jdk: oraclejdk8
 cache:
   directories:
   - $HOME/.m2
+deploy:
+  provider: releases
+  api_key: "af53dc33b0a603a16a51fd275e6a0da33f52ac6b"
+  file: "FireTweaks.jar"
+  skip_cleanup: true
+  on:
+    tags: true
